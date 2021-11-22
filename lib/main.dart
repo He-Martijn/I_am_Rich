@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-// To make sure github and pushing works this comment. 
+
 // Since this is an open source repo. For everyone who reads this :
 // I follow the FLutter course by Angela Yu on github.
 // This lesson we create an app called I am rich.
@@ -11,7 +11,7 @@ import 'package:flutter/material.dart';
 //
 // Needles to say : This project is not going to be published in any app store.
 //
-// Regards, Martijn. 
+// Regards, Martijn.
 
 void main() {
   MaterialApp{
