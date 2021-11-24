@@ -15,9 +15,7 @@ import 'package:flutter/material.dart';
 // P.S. Test comment. 
 
 void main() {
-  MaterialApp{
-
-  }
+  runApp(material(home:text('Hallo wereld')));
 
 }
 
