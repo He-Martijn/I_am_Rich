@@ -14,8 +14,20 @@ import 'package:flutter/material.dart';
 // Regards, Martijn.
 // P.S. Test comment. 
 
+// First lesson, just to create 'Hello World' on screen : 
+/*
 void main() {
   runApp(material(home:text('Hallo wereld')));
+  
 
 }
 
+*/
+
+// Second lesson. About indentation. Widgets. And create a center widget : 
+
+void main() {
+  runApp(materialapp(home(text('Hallo wereld'),),),);
+// I doubt if it will work like this. 
+
+}
