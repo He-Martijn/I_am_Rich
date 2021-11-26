@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 // Since this is an open source repo. For everyone who reads this :
 // I follow the FLutter course by Angela Yu on github.
 // This lesson we create an app called I am rich.
@@ -12,9 +11,9 @@ import 'package:flutter/material.dart';
 // Needles to say : This project is not going to be published in any app store.
 //
 // Regards, Martijn.
-// P.S. Test comment. 
+// P.S. Test comment.
 
-// First lesson, just to create 'Hello World' on screen : 
+// First lesson, just to create 'Hello World' on screen :
 /*
 void main() {
   runApp(material(home:text('Hallo wereld')));
@@ -24,10 +23,14 @@ void main() {
 
 */
 
-// Second lesson. About indentation. Widgets. And create a center widget : 
+// Second lesson. About indentation. Widgets. And create a center widget :
 
 void main() {
-  runApp(materialapp(home(text('Hallo wereld'),),),);
-// I doubt if it will work like this. 
-
+  runApp(
+    MaterialApp(
+      home: Center(
+        child: Text('Hallo Wereld'),
+      ),
+    ),
+  );
 }
