@@ -25,11 +25,27 @@ void main() {
 
 // Second lesson. About indentation. Widgets. And create a center widget :
 
+/* 
 void main() {
   runApp(
     MaterialApp(
       home: Center(
         child: Text('Hallo Wereld'),
+      ),
+    ),
+  );
+}
+*/ 
+
+// Next lesson : Scaffolding an app : 
+
+void main() {
+  runApp(
+    MaterialApp(
+      home: Scaffold(appBar: 
+        AppBar(title: Text('I am Rich'),
+        backgroundColor: Colors.blueGrey[900],
+        ),
       ),
     ),
   );
