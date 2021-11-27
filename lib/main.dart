@@ -46,6 +46,7 @@ void main() {
         AppBar(title: Text('I am Rich'),
         backgroundColor: Colors.blueGrey[900],
         ),
+        backgroundColor: Colors.indigo,
       ),
     ),
   );
