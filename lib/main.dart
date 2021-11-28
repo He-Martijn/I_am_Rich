@@ -42,12 +42,19 @@ void main() {
 void main() {
   runApp(
     MaterialApp(
-      home: Scaffold(appBar: 
+      home: Scaffold(
+        backgroundColor: Colors.blueGrey,
+        appBar: 
         AppBar(title: Text('I am Rich'),
         backgroundColor: Colors.blueGrey[900],
         ),
-        backgroundColor: Colors.indigo,
+        body: 
+        Center(
+          child: Image(image: NetworkImage('https://images.pexels.com/photos/1126384/pexels-photo-1126384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'),),
+        ) 
+         ,
       ),
     ),
   );
 }
+
