@@ -1,6 +1,9 @@
 This repository is the result of education. 
 So probably at least part of the ownership belongs to the teacher. 
 
+For the diamond picture in this app I used one from pixabay.com
+For this picture the Pixabay license is applicable.
+
 As far as my ownership goes with this software the MIT license is applicable.
 
 Regards, Martijn. 

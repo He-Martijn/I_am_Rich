@@ -50,11 +50,11 @@ void main() {
         ),
         body: 
         Center(
-          child: Image(image: NetworkImage('https://images.pexels.com/photos/1126384/pexels-photo-1126384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'),),
-        ) 
-         ,
+          child: Image(image: AssetImage('images/diamond.png'),),
+        ),
       ),
     ),
   );
 }
 
+// link to image used : https://pixabay.com/illustrations/diamond-precious-stone-jewelry-1199183/
