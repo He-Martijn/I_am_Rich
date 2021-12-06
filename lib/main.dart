@@ -35,22 +35,23 @@ void main() {
     ),
   );
 }
-*/ 
+*/
 
-// Next lesson : Scaffolding an app : 
+// Next lesson : Scaffolding an app :
 
 void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
-        appBar: 
-        AppBar(title: Text('I am Rich'),
-        backgroundColor: Colors.blueGrey[900],
+        appBar: AppBar(
+          title: Text('I am Rich'),
+          backgroundColor: Colors.blueGrey[900],
         ),
-        body: 
-        Center(
-          child: Image(image: AssetImage('images/diamond.png'),),
+        body: Center(
+          child: Image(
+            image: AssetImage('images/diamond.png'),
+          ),
         ),
       ),
     ),
